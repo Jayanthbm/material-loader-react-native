@@ -87,7 +87,7 @@ export default function App() {
 ## 🧱 Example (Expo Snack)
 
 Try it live:  
-👉 [**Open in Expo Snack**](https://snack.expo.dev)
+👉 [**Open in Expo Snack**](https://snack.expo.dev/@jayanthm/m3-loader)
 
 ---
 
