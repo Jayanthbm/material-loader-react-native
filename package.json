@@ -1,6 +1,6 @@
 {
   "name": "material-loader-react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material Design 3 inspired animated loading indicator for React Native and Expo.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,9 +18,15 @@
     "react-native",
     "expo",
     "material",
+    "material3",
+    "material3-expressive",
     "m3",
     "loader",
     "loading-indicator",
+    "loader",
+    "circular-loading-indicator",
+    "m3-loading-indicator",
+    "m3-loader",
     "svg",
     "reanimated",
     "animated"

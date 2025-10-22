@@ -64,6 +64,9 @@ export const M3eLoader: React.FC<M3eLoaderProps> = ({
 
    const currentShape = SHAPES[shapeNames[shapeIndex]];
 
+   // Determine inner shape size to make both variants visually same
+   const innerSize = variant === "contained" ? size * 0.85 : size;
+
    return (
       <View
          style={[
@@ -81,7 +84,10 @@ export const M3eLoader: React.FC<M3eLoaderProps> = ({
          ]}
       >
          <Animated.View
-            style={[{ width: size * 0.85, height: size * 0.85 }, animatedStyle]}
+            style={[
+               { width: innerSize, height: innerSize },
+               animatedStyle,
+            ]}
          >
             <Svg width="100%" height="100%" viewBox="0 0 100 100">
                <Polygon points={currentShape} fill={color} />
