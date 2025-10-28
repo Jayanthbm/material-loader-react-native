@@ -7,6 +7,8 @@
 
 A **Material Design 3 inspired animated loading indicator** for **React Native** and **Expo**, powered by `react-native-reanimated` and `react-native-svg`. It morphs through geometric shapes while rotating — similar to the expressive style of M3.
 
+Ported from the web version of [M3E — Material 3 Expressive](https://matraic.github.io/m3e/#/components/loading-indicator.html)
+
 ---
 
 ## ✨ Features
